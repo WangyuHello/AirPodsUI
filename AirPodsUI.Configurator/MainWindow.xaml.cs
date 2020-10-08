@@ -169,7 +169,7 @@ namespace AirPodsUI.Configurator
             try
             {
                 Log.Information("Stating the AirPodsUI service.");
-                Process.Start($"{Helper.AppDirectory}\\AirPodsUI.Configurator.exe");
+                Process.Start($"{Helper.AppDirectory}\\AirPodsUI.Service.exe");
             }
             catch (Exception ex)
             {
